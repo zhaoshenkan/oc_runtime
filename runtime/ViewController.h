@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (void)oriRun:(NSString *)animal;
+- (void)oriForwardInvocation:(NSInvocation *)anInvocation;
+- (void)eat;
+
 
 @end
 

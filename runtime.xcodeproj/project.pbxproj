@@ -16,6 +16,7 @@
 		8611070621AD39200032DB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611070521AD39200032DB09 /* main.m */; };
 		8611071021AD39200032DB09 /* runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611070F21AD39200032DB09 /* runtimeTests.m */; };
 		8611071B21AD39200032DB09 /* runtimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611071A21AD39200032DB09 /* runtimeUITests.m */; };
+		8611072A21AE33890032DB09 /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611072921AE33890032DB09 /* dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8611071621AD39200032DB09 /* runtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8611071A21AD39200032DB09 /* runtimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeUITests.m; sourceTree = "<group>"; };
 		8611071C21AD39200032DB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8611072821AE33890032DB09 /* dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		8611072921AE33890032DB09 /* dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				861106F421AD391E0032DB09 /* AppDelegate.m */,
 				861106F621AD391E0032DB09 /* ViewController.h */,
 				861106F721AD391E0032DB09 /* ViewController.m */,
+				8611072821AE33890032DB09 /* dog.h */,
+				8611072921AE33890032DB09 /* dog.m */,
 				861106F921AD391E0032DB09 /* Main.storyboard */,
 				861106FF21AD39200032DB09 /* Assets.xcassets */,
 				8611070121AD39200032DB09 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				861106F821AD391E0032DB09 /* ViewController.m in Sources */,
 				861106FE21AD391E0032DB09 /* runtime.xcdatamodeld in Sources */,
 				8611070621AD39200032DB09 /* main.m in Sources */,
+				8611072A21AE33890032DB09 /* dog.m in Sources */,
 				861106F521AD391E0032DB09 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PJTLW2LYY8;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PJTLW2LYY8;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
